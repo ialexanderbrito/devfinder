@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Space Mono, monospace;
+}
+
+body {
+  color: var(--text-primary);
+}
+
+a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+:root {
+  --background: #F6F8FF;
+  --background-content: #FEFEFE;
+  --text-primary: #4B6A9B;
+  --text-secondary: #2B3442;
+  --lm-shadow-active: 0px 4px 4px 0px rgba(0,0,0,0.25);
+  --lm-shadow-inactive: 0px 16px 30px -10px rgba(0,0,0,0.2);
+  --lm-icon-bg: brightness(100%);
+  --btn: #0079FF;
+  --btn-hover: #60ABFF;
+}
+
+[data-theme='dark'] {
+  --background: #141D2F;
+  --background-content: #1E2A47;
+  --text-primary: #FFF;
+  --text-secondary: #FFF;
+  --lm-shadow-xl: rgba(70,88,109,0.15);
+  --lm-icon-bg: brightness(1000%);
+}
+
+::-webkit-input-placeholder {
+  text-transform: initial;
+}
+
+:-moz-placeholder {
+  text-transform: initial;
+}
+
+::-moz-placeholder {
+  text-transform: initial;
+}
+
+:-ms-input-placeholder {
+  text-transform: initial;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #aaaaaa;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bbbbbb;
+  ;
+}
+
+::placeholder {
+  color: var(--text-primary);
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: var(--text-primary);
+}
+
+::-ms-input-placeholder {
+  color: var(--text-primary);
+}
