@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 78px;
+  padding-top: 10px;
+  color: var(--text-primary);
+  width: 100%;
+}
+
+.theme {
+  color: var(--text-primary);
+}
+
+.mode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+  height: 38px;
+  letter-spacing: 2.5px;
+  color: #FFF;
+  font-weight: bold;
+  margin-left: 10px;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(80%);
+    transition: 0.4s;
+  }
+}
+
+@media screen and (min-width: 839px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+    padding-top: 10px;
+    color: var(--text-primary);
+    width: 50%;
+  }
+}
